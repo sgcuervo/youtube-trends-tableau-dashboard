@@ -90,3 +90,16 @@ anticipación — las categorías dominantes no cambian drásticamente mes a mes
 - `trending_date` — fecha y hora del registro de tendencia
 - `category_title` — categoría del video
 - `videos_count` — número de videos en la sección de tendencias
+
+## Cómo reproducir el análisis
+
+```bash
+git clone https://github.com/sgcuervo/youtube-trends-dashboard
+
+cd youtube-trends-dashboard
+
+pip install -r requirements.txt
+
+jupyter notebook analysis.ipynb
+```
+Los datasets originales están incluidos en `/datasets/`.
